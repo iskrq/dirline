@@ -1,1 +1,34 @@
 @import "tailwindcss";
+
+/* AUTH TABS */
+.auth-tab.active {
+  background: #fff;
+  color: #dc2626;
+}
+
+.auth-tab:not(.active):hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* AUTH FORMS */
+.form-box {
+  display: none;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  width: 100%;
+}
+
+.form-box.active {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.form-box small {
+  display: block;
+  min-height: 18px;
+  font-size: 0.85rem;
+}
