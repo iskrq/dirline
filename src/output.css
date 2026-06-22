@@ -22,8 +22,6 @@
     --container-6xl: 72rem;
     --text-sm: 0.875rem;
     --text-sm--line-height: calc(1.25 / 0.875);
-    --text-2xl: 1.5rem;
-    --text-2xl--line-height: calc(2 / 1.5);
     --text-3xl: 1.875rem;
     --text-3xl--line-height: calc(2.25 / 1.875);
     --font-weight-semibold: 600;
@@ -188,6 +186,24 @@
   .sticky {
     position: sticky;
   }
+  .container {
+    width: 100%;
+    @media (width >= 40rem) {
+      max-width: 40rem;
+    }
+    @media (width >= 48rem) {
+      max-width: 48rem;
+    }
+    @media (width >= 64rem) {
+      max-width: 64rem;
+    }
+    @media (width >= 80rem) {
+      max-width: 80rem;
+    }
+    @media (width >= 96rem) {
+      max-width: 96rem;
+    }
+  }
   .mx-auto {
     margin-inline: auto;
   }
@@ -209,9 +225,6 @@
   .h-4 {
     height: calc(var(--spacing) * 4);
   }
-  .h-16 {
-    height: calc(var(--spacing) * 16);
-  }
   .min-h-\[600px\] {
     min-height: 600px;
   }
@@ -232,6 +245,9 @@
   }
   .max-w-md {
     max-width: var(--container-md);
+  }
+  .transform {
+    transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
   }
   .cursor-pointer {
     cursor: pointer;
@@ -288,13 +304,6 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
-  .border-b {
-    border-bottom-style: var(--tw-border-style);
-    border-bottom-width: 1px;
-  }
-  .border-gray-200 {
-    border-color: var(--color-gray-200);
-  }
   .border-gray-300 {
     border-color: var(--color-gray-300);
   }
@@ -340,10 +349,6 @@
   .text-center {
     text-align: center;
   }
-  .text-2xl {
-    font-size: var(--text-2xl);
-    line-height: var(--tw-leading, var(--text-2xl--line-height));
-  }
   .text-3xl {
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-3xl--line-height));
@@ -371,9 +376,6 @@
   }
   .text-white {
     color: var(--color-white);
-  }
-  .underline {
-    text-decoration-line: underline;
   }
   .shadow-sm {
     --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
@@ -496,31 +498,136 @@
     }
   }
 }
-.auth-tab.active {
-  background: #fff;
-  color: #dc2626;
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+  background-color: #e6e6e6;
 }
-.auth-tab:not(.active):hover {
-  background: rgba(255, 255, 255, 0.15);
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
 }
-.form-box {
-  display: none;
-  opacity: 0;
-  transform: translateY(10px);
-  transition: opacity 0.3s ease, transform 0.3s ease;
+.plavo {
+  color: #5B42E8;
+}
+.ljubicasto {
+  color: #9A42E8;
+}
+.hero-text {
+  font-size: 22px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.hero-text h1 {
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 800;
+}
+.swirl-wrap {
+  position: relative;
   width: 100%;
+  height: 750px;
 }
-.form-box.active {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  opacity: 1;
-  transform: translateY(0);
+.swirl {
+  position: absolute;
+  top: -107px;
+  left: 0;
+  width: 675px;
+  height: auto;
+  z-index: -1;
 }
-.form-box small {
+.bubble {
+  position: absolute;
+  left: 25px;
+  width: 150px;
+}
+.bubble p {
+  margin: 0;
+  font-weight: 800;
+  line-height: normal;
+  font-size: 20px;
+  color: #696969;
+}
+.bubble-1 {
+  top: 80px;
+}
+.bubble-2 {
+  top: 262px;
+}
+.forma {
+  position: absolute;
+  top: -5px;
+  left: 240px;
+  width: 300px;
+  background: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+.label {
   display: block;
-  min-height: 18px;
-  font-size: 0.85rem;
+  font-size: 16px;
+  margin-bottom: 6px;
+  margin-top: 12px;
+}
+.input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #e3e3e3;
+  border-radius: 10px;
+  font-size: 14px;
+  outline: none;
+}
+textarea {
+  height: 80px;
+  resize: none;
+}
+.request-button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #3557ff;
+  color: white;
+  font-size: 14px;
+}
+.request-button:hover {
+  background: #2446e8;
+}
+.right-image {
+  position: absolute;
+  top: -110px;
+  right: 0;
+  width: auto;
+  height: 560px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.right-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@property --tw-rotate-x {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-rotate-y {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-rotate-z {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-skew-x {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-skew-y {
+  syntax: "*";
+  inherits: false;
 }
 @property --tw-space-y-reverse {
   syntax: "*";
@@ -604,6 +711,11 @@
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
+      --tw-rotate-x: initial;
+      --tw-rotate-y: initial;
+      --tw-rotate-z: initial;
+      --tw-skew-x: initial;
+      --tw-skew-y: initial;
       --tw-space-y-reverse: 0;
       --tw-border-style: solid;
       --tw-font-weight: initial;

@@ -83,10 +83,44 @@ if (isset($_POST["login"])) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DIRLINE</title>
+  <title>Dirline</title>
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="../../assets/img/favicon.ico">
   <link href="../../src/output.css" rel="stylesheet">
+  <style>
+      /* AUTH TABS */
+  .auth-tab.active {
+    background: #fff;
+    color: #dc2626;
+  }
+
+  .auth-tab:not(.active):hover {
+    background: rgba(255, 255, 255, 0.15);
+  }
+
+  /* AUTH FORMS */
+  .form-box {
+    display: none;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    width: 100%;
+  }
+
+  .form-box.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .form-box small {
+    display: block;
+    min-height: 18px;
+    font-size: 0.85rem;
+  }
+  </style>
 </head>
 <body class="bg-gray-200 min-h-screen">
 
