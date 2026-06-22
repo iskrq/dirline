@@ -275,3 +275,17 @@ button {
 button:hover {
   background: #2446e8;
 }
+.right-image {
+  position: absolute;
+  top: -110px;
+  right: 0;
+  width: auto;
+  height: 560px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.right-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
