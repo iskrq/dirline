@@ -527,7 +527,7 @@ body {
 .swirl-wrap {
   position: relative;
   width: 100%;
-  height: 750px;
+  height: 450px;
 }
 .swirl {
   position: absolute;
@@ -608,6 +608,29 @@ textarea {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.donji-tekst {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-top: 40px;
+}
+.levi-tekst {
+  width: 400px;
+}
+.desni-tekst {
+  width: 420px;
+}
+.desni-tekst p {
+  font-size: 30px;
+  font-weight: 700;
+}
+.desni-tekst ul {
+  list-style-position: inside;
+}
+.desni-tekst li {
+  list-style-type: disc;
 }
 @property --tw-rotate-x {
   syntax: "*";
