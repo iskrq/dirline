@@ -69,7 +69,7 @@
       </div>
 
       <div class="desni-tekst">
-        <p>KRATKI BENEFITI:</p>
+        <h3>KRATKI BENEFITI:</h3>
         <ul>
           <li><span class="plavo">Brza</span> i <span class="ljubicasto">sigurna</span> realizacija</li>
           <li><span class="ljubicasto">Moderan dizajn</span> po <span class="plavo">vašoj meri</span></li>

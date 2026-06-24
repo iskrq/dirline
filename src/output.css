@@ -615,16 +615,17 @@ textarea {
   align-items: center;
   gap: 50px;
   margin-top: 40px;
+  font-size: 20px;
 }
 .levi-tekst {
-  width: 400px;
+  width: 50%;
 }
 .desni-tekst {
-  width: 420px;
+  width: 40%;
 }
-.desni-tekst p {
-  font-size: 30px;
+.desni-tekst h3 {
   font-weight: 700;
+  font-size: 30px;
 }
 .desni-tekst ul {
   list-style-position: inside;
