@@ -15,8 +15,8 @@
       Login
     </button>
     <section class="hero-text">
-      <h1>LAKO I JEDNOSTAVNO DODJITE <br>DO <span class="plavo">JEDINSTVENOG</span> REŠENJA</h1>
-      <p>Adekvatna podrška za razvoj vašeg <span class="ljubicasto">web sajta</span></p>
+      <h1>LAKO I JEDNOSTAVNO DODJITE <br>DO <span class="blue">JEDINSTVENOG</span> REŠENJA</h1>
+      <p>Adekvatna podrška za razvoj vašeg <span class="purple">web sajta</span></p>
     </section>
 
     <section class="swirl-wrap">
@@ -63,51 +63,108 @@
       <div class="levi-tekst">
         <p>
           Naša misija je da vašu ideju pretvorimo u digitalnu stvarnost – od
-          <span class="ljubicasto">kreativnog dizajna</span> do
-          <span class="plavo">tehnički besprekorne realizacije</span>.
+          <span class="purple">kreativnog dizajna</span> do
+          <span class="blue">tehnički besprekorne realizacije</span>.
         </p>
       </div>
 
       <div class="desni-tekst">
         <h3>KRATKI BENEFITI:</h3>
         <ul>
-          <li><span class="plavo">Brza</span> i <span class="ljubicasto">sigurna</span> realizacija</li>
-          <li><span class="ljubicasto">Moderan dizajn</span> po <span class="plavo">vašoj meri</span></li>
-          <li>Potpuno <span class="plavo">responzivni</span> <span class="ljubicasto">sajtovi</span></li>
-          <li><span class="plavo">Tehnička podrška</span> i <span class="ljubicasto">održavanje</span></li>
+          <li><span class="blue">Brza</span> i <span class="purple">sigurna</span> realizacija</li>
+          <li><span class="purple">Moderan dizajn</span> po <span class="blue">vašoj meri</span></li>
+          <li>Potpuno <span class="blue">responzivni</span> <span class="purple">sajtovi</span></li>
+          <li><span class="blue">Tehnička podrška</span> i <span class="purple">održavanje</span></li>
         </ul>
       </div>
     </section>
 
-    <section class="hero-text2">
-      <h1>O NAMA</h1>
-    </section>
-    <section class="about1">
-      <div class="about1-tekst">
-        <h2>KO STOJI IZA DIRLINE-A?</h2>
-        <p>Mi smo <span class="plavo">David</span> i <span class="ljubicasto">Iskra</span> Radisavljević – brat i sestra koje spaja strast prema dizajnu i tehnologiji.<br> David se fokusira na funkcionalnost, strukturu i optimizaciju, dok Iskra unosi kreativnost, estetiku i vizuelni identitet. Zajedno spajamo logiku i umetnost, gradeći digitalna rešenja koja su i moćna i lepa.</p>
-      </div>
-      <div class="about1-slika">
-        <img src="assets/img/image2.png">
-      </div>
-    </section>
-    <section class="about2">
-        <h2>ZAŠTO BAS DIRLINE?</h2>
-        <p>Naziv Dirline dolazi od našeg ličnog potpisa – <b>DIR</b> = David, Iskra, Radisavljević, što znači da iza svakog projekta stoji naš zajednički rad, kreativnost i posvećenost. Sve počinje od linije – linija je osnova svakog dizajna, svake ideje i svakog koda. Dirline je naš simbol: od prve povučene linije na papiru do gotovog sajta koji spaja ljude i ideje. Verujemo da svaka linija ima svoju svrhu, a naš zadatak je da je usmerimo ka rešenju koje vam donosi vrednost.</p>
-    </section>
-    <section class="about3">
-      <div class="about3-slika">
-        <img src="assets/img/image3.png">
-      </div>
-      <div class="about3-tekst">
-        <h2>NAŠE VREDNOSTI</h2>
-        <p>Naš rad zasnivamo na tri stuba:</p><br>
-        <ul>
-          <li><b>Kreativnost</b> – svaka ideja zaslužuje jedinstven vizuelni izraz.</li>
-          <li><b>Preciznost</b> – obraćamo pažnju na detalje koji prave razliku.</li>
-          <li><b>Pouzdanost</b> – tu smo i nakon lansiranja sajta.</li></ul>
-      </div>
-    </section>
+    <section class="about mt-20">
+    
+    <header class="mb-16">
+        <h1 class="text-center text-4xl font-bold">
+            O NAMA
+        </h1>
+    </header>
+
+    <div class="about-cards">
+
+        <!-- Kartica 1 -->
+        <article class="about-card">
+            <div class="bg-[#091B37] p-8 text-white md:w-[70%]">
+                <h2 class="mb-4 text-3xl font-bold">
+                    KO STOJI IZA DIRLINE-A?
+                </h2>
+
+                <p class="text-lg md:text-xl">
+                    Mi smo <span class="blue">David</span> i
+                    <span class="purple">Iskra</span> Radisavljević – brat i sestra
+                    koje spaja ambicija prema dizajnu i tehnologiji.
+
+                    David se fokusira na funkcionalnost, strukturu i optimizaciju,
+                    dok Iskra unosi kreativnost, estetiku i vizuelni identitet.
+                    Zajedno spajamo logiku i umetnost, gradeći digitalna rešenja
+                    koja su i moćna i lepa.
+                </p>
+            </div>
+
+            <figure class="md:w-[30%]">
+                <img
+                    src="assets/img/image2.png"
+                    class="h-full w-full object-cover"
+                >
+            </figure>
+        </article>
+
+        <!-- Kartica 2 -->
+      <article class="about-card about-card-center bg-white p-8">
+          <h2 class="mb-6 text-center text-3xl font-bold">
+              ZAŠTO BAŠ DIRLINE?
+          </h2>
+
+          <p class="text-lg md:text-xl">
+              Naziv Dirline dolazi od našeg ličnog potpisa –
+              <strong>DIR</strong> = David, Iskra, Radisavljević,
+              što znači da iza svakog projekta stoji naš zajednički rad,
+              kreativnost i posvećenost.
+
+              Sve počinje od linije – linija je osnova svakog dizajna,
+              svake ideje i svakog koda. Dirline je naš simbol:
+              od prve povučene linije na papiru do gotovog sajta koji
+              spaja ljude i ideje. Verujemo da svaka linija ima svoju svrhu,
+              a naš zadatak je da je usmerimo ka rešenju koje vam donosi vrednost.
+          </p>
+      </article>
+
+        <!-- Kartica 3 -->
+        <article class="about-card">
+            <figure class="md:w-[30%]">
+                <img
+                    src="assets/img/image3.png"
+                    class="h-full w-full object-cover"
+                >
+            </figure>
+
+            <div class="bg-[#091B37] p-8 text-right text-white md:w-[70%]">
+                <h2 class="mb-4 text-3xl font-bold">
+                    NAŠE VREDNOSTI
+                </h2>
+
+                <p class="mb-4 text-lg md:text-xl">
+                    Naš rad zasnivamo na tri stuba:
+                </p>
+
+                <ul class="space-y-2 text-lg md:text-xl">
+                    <li><strong>Kreativnost</strong> – svaka ideja zaslužuje jedinstven vizuelni izraz.</li>
+                    <li><strong>Preciznost</strong> – obraćamo pažnju na detalje koji prave razliku.</li>
+                    <li><strong>Pouzdanost</strong> – tu smo i nakon lansiranja sajta.</li>
+                </ul>
+            </div>
+        </article>
+
+    </div>
+
+</section>
 
 
   </div>
