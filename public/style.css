@@ -234,18 +234,30 @@ ul
 }
 .circle{
     border-radius:50%;
-    background:linear-gradient(135deg,#9B87FF,#DABEFF);
-    border:3px solid #9A42E8;
+    background: radial-gradient(
+        circle at center,
+        #ecdfff 0%,
+        #d7b9ff 45%,
+        #b48cf7 80%,
+        #9a6ef1 100%
+    );
+    border:5px solid #9A42E8;
 }
 .square{
     border-radius:35px;
-    background:linear-gradient(135deg,#9B87FF,#DABEFF);
-    border:3px solid #5B42E8;
+    background: radial-gradient(
+        circle at center,
+        #ede3ff 0%,
+        #d8c2ff 45%,
+        #b89bf8 80%,
+        #9f84f3 100%
+    );
+    border:5px solid #5B42E8;
 }
 .service-card h3{
     font-size:28px;
     font-weight:bold;
-    color:#2f2242;
+    color:#000;
     margin-bottom:20px;
 }
 .service-card img{
@@ -254,5 +266,5 @@ ul
 }
 .service-card p{
     font-size:18px;
-    color:#494949;
+    color:#252525;
 }
