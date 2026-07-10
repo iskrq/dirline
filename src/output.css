@@ -262,7 +262,7 @@ textarea {
   height: 80px;
   resize: none;
 }
-button {
+.kontakt {
   width: 100%;
   margin-top: 15px;
   padding: 10px;
@@ -324,6 +324,7 @@ ul {
   overflow: hidden;
   border-radius: 50px;
   height: 300px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 .about1-tekst, .about3-tekst {
   width: 70%;
@@ -357,6 +358,7 @@ ul {
   background: white;
   color: black;
   padding: 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 .about2 h2 {
   font-size: 34px;
@@ -400,7 +402,7 @@ ul {
   align-items: center;
   text-align: center;
   padding: 25px;
-  box-shadow: 8px 8px 12px rgba(0,0,0,0.3);
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
   transition: .3s;
   margin-bottom: 75px;
 }
@@ -430,4 +432,95 @@ ul {
 .service-card p {
   font-size: 18px;
   color: #252525;
+}
+.plans {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  flex-wrap: wrap;
+}
+.plan-card {
+  width: 300px;
+  overflow: hidden;
+  background: #d9d9d9;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.plan-header {
+  background: #1c1c1c;
+  color: white;
+  text-align: center;
+  padding: 35px 20px 70px;
+  clip-path: polygon(0 0, 100% 0, 100% 65%, 50% 100%, 0 65%);
+  position: relative;
+  z-index: 1;
+}
+.plan-header h3 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.plan-header p {
+  font-size: 18px;
+}
+.plan-price {
+  display: flex;
+  justify-content: center;
+  margin-top: -55px;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 2;
+}
+.plan-price-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #CC3F41;
+  border: 5px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+.plan-price-circle .od {
+  font-size: 12px;
+  font-weight: 600;
+}
+.plan-price-circle .cena {
+  font-size: 26px;
+  font-weight: 800;
+}
+.plan-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.plan-features li {
+  padding: 14px 20px;
+  font-size: 16px;
+  text-align: center;
+  color: #252525;
+}
+.plan-features li:nth-child(even) {
+  background: #cfcfcf;
+}
+.plan-features li:nth-child(odd) {
+  background: #d9d9d9;
+}
+.plan-btn {
+  display: block;
+  width: calc(100% - 100px);
+  margin: 20px auto;
+  padding: 14px;
+  background: #1c1c1c;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
+.plan-btn:hover {
+  background: #000;
 }
