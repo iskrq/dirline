@@ -8,12 +8,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
+  <?php include 'public/components/header.php'; ?>
   <div class="container">
-    <button class="request-button" type="button" onclick="window.location.href='public/auth/logreg.php'">
-      Login
-    </button>
     <section class="hero-text">
       <h1>LAKO I JEDNOSTAVNO DODJITE <br>DO <span class="blue">JEDINSTVENOG</span> REŠENJA</h1>
       <p>Adekvatna podrška za razvoj vašeg <span class="purple">web sajta</span></p>
@@ -168,5 +167,6 @@
 
 
   </div>
+  <?php include 'public/components/footer.php'; ?>
 </body>
 </html>
