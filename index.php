@@ -103,7 +103,7 @@
                     David se fokusira na funkcionalnost, strukturu i optimizaciju,
                     dok Iskra unosi kreativnost, estetiku i vizuelni identitet.
                     Zajedno spajamo logiku i umetnost, gradeći digitalna rešenja
-                    koja su i moćna i lepa.
+                    koja su i moćna i atraktivna.
                 </p>
             </div>
 
