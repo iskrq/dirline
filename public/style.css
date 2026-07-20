@@ -15,16 +15,6 @@ body {
 .plavo { color: #5B42E8; }
 .ljubicasto { color: #9A42E8; }
 
-.hero-text {
-  font-size: 22px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-.hero-text h1 {
-  font-size: 36px;
-  line-height: 1.2;
-  font-weight: bold;
-}
 .swirl-wrap {
   position: relative;
   width: 100%;
@@ -52,15 +42,6 @@ body {
 }
 .bubble-1 { top: 80px; }
 .bubble-2 { top: 262px; }
-.forma {
-  position: absolute;
-  top: -5px;
-  left: 240px;
-  width: 300px;
-  background: white;
-  padding: 15px 20px;
-  border-radius: 5px;
-}
 label {
   display: block;
   font-size: 16px;
@@ -211,13 +192,7 @@ ul
   text-align: center;
   font-size: 20px;
 }
-.services{
-    margin-top:75px;
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    gap:55px;
-    justify-items:center;
-}
+
 .service-card{
     width:350px;
     height:350px;
