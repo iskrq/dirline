@@ -57,7 +57,7 @@
 
     </section>
 
-<!-- OVO IDE ISPOD SEKCIJE -->
+    <!-- OVO IDE ISPOD SEKCIJE -->
     <section class="donji-tekst">
       <div class="levi-tekst">
         <p>
@@ -80,90 +80,196 @@
 
     <section class="about mt-20">
     
-    <header class="mb-16">
-        <h1 class="text-center text-4xl font-bold">
-            O NAMA
-        </h1>
-    </header>
+      <header class="mb-16">
+          <h1 class="text-center text-4xl font-bold">
+              O NAMA
+          </h1>
+      </header>
 
-    <div class="about-cards">
+      <div class="about-cards">
 
-        <!-- Kartica 1 -->
-        <article class="about-card">
-            <div class="bg-[#091B37] p-8 text-white md:w-[70%]">
-                <h2 class="mb-4 text-3xl font-bold">
-                    KO STOJI IZA DIRLINE-A?
-                </h2>
+          <!-- Kartica 1 -->
+          <article class="about-card">
+              <div class="bg-[#091B37] p-8 text-white md:w-[70%]">
+                  <h2 class="mb-4 text-3xl font-bold">
+                      KO STOJI IZA DIRLINE-A?
+                  </h2>
 
-                <p class="text-lg md:text-xl">
-                    Mi smo <span class="blue">David</span> i
-                    <span class="purple">Iskra</span> Radisavljević – brat i sestra
-                    koje spaja ambicija prema dizajnu i tehnologiji.
+                  <p class="text-lg md:text-xl">
+                      Mi smo <span class="blue">David</span> i
+                      <span class="purple">Iskra</span> Radisavljević – brat i sestra
+                      koje spaja ambicija prema dizajnu i tehnologiji.
 
-                    David se fokusira na funkcionalnost, strukturu i optimizaciju,
-                    dok Iskra unosi kreativnost, estetiku i vizuelni identitet.
-                    Zajedno spajamo logiku i umetnost, gradeći digitalna rešenja
-                    koja su i moćna i atraktivna.
-                </p>
-            </div>
+                      David se fokusira na funkcionalnost, strukturu i optimizaciju,
+                      dok Iskra unosi kreativnost, estetiku i vizuelni identitet.
+                      Zajedno spajamo logiku i umetnost, gradeći digitalna rešenja
+                      koja su i moćna i atraktivna.
+                  </p>
+              </div>
 
-            <figure class="md:w-[30%]">
-                <img
-                    src="assets/img/image2.png"
-                    class="h-full w-full object-cover"
-                >
-            </figure>
+              <figure class="md:w-[30%]">
+                  <img
+                      src="assets/img/image2.png"
+                      class="h-full w-full object-cover"
+                  >
+              </figure>
+          </article>
+
+          <!-- Kartica 2 -->
+        <article class="about-card about-card-center bg-white p-8">
+            <h2 class="mb-6 text-center text-3xl font-bold">
+                ZAŠTO BAŠ DIRLINE?
+            </h2>
+
+            <p class="text-lg md:text-xl">
+                Naziv Dirline dolazi od našeg ličnog potpisa –
+                <strong>DIR</strong> = David, Iskra, Radisavljević,
+                što znači da iza svakog projekta stoji naš zajednički rad,
+                kreativnost i posvećenost.
+
+                Sve počinje od linije – linija je osnova svakog dizajna,
+                svake ideje i svakog koda. Dirline je naš simbol:
+                od prve povučene linije na papiru do gotovog sajta koji
+                spaja ljude i ideje. Verujemo da svaka linija ima svoju svrhu,
+                a naš zadatak je da je usmerimo ka rešenju koje vam donosi vrednost.
+            </p>
         </article>
 
-        <!-- Kartica 2 -->
-      <article class="about-card about-card-center bg-white p-8">
-          <h2 class="mb-6 text-center text-3xl font-bold">
-              ZAŠTO BAŠ DIRLINE?
-          </h2>
+          <!-- Kartica 3 -->
+          <article class="about-card">
+              <figure class="md:w-[30%]">
+                  <img
+                      src="assets/img/image3.png"
+                      class="h-full w-full object-cover"
+                  >
+              </figure>
 
-          <p class="text-lg md:text-xl">
-              Naziv Dirline dolazi od našeg ličnog potpisa –
-              <strong>DIR</strong> = David, Iskra, Radisavljević,
-              što znači da iza svakog projekta stoji naš zajednički rad,
-              kreativnost i posvećenost.
+              <div class="bg-[#091B37] p-8 text-right text-white md:w-[70%]">
+                  <h2 class="mb-4 text-3xl font-bold">
+                      NAŠE VREDNOSTI
+                  </h2>
 
-              Sve počinje od linije – linija je osnova svakog dizajna,
-              svake ideje i svakog koda. Dirline je naš simbol:
-              od prve povučene linije na papiru do gotovog sajta koji
-              spaja ljude i ideje. Verujemo da svaka linija ima svoju svrhu,
-              a naš zadatak je da je usmerimo ka rešenju koje vam donosi vrednost.
-          </p>
-      </article>
+                  <p class="mb-4 text-lg md:text-xl">
+                      Naš rad zasnivamo na tri stuba:
+                  </p>
 
-        <!-- Kartica 3 -->
-        <article class="about-card">
-            <figure class="md:w-[30%]">
-                <img
-                    src="assets/img/image3.png"
-                    class="h-full w-full object-cover"
-                >
-            </figure>
+                  <ul class="space-y-2 text-lg md:text-xl">
+                      <li><strong>Kreativnost</strong> – svaka ideja zaslužuje jedinstven vizuelni izraz.</li>
+                      <li><strong>Preciznost</strong> – obraćamo pažnju na detalje koji prave razliku.</li>
+                      <li><strong>Pouzdanost</strong> – tu smo i nakon lansiranja sajta.</li>
+                  </ul>
+              </div>
+          </article>
 
-            <div class="bg-[#091B37] p-8 text-right text-white md:w-[70%]">
-                <h2 class="mb-4 text-3xl font-bold">
-                    NAŠE VREDNOSTI
-                </h2>
+      </div>
 
-                <p class="mb-4 text-lg md:text-xl">
-                    Naš rad zasnivamo na tri stuba:
-                </p>
+    </section>
 
-                <ul class="space-y-2 text-lg md:text-xl">
-                    <li><strong>Kreativnost</strong> – svaka ideja zaslužuje jedinstven vizuelni izraz.</li>
-                    <li><strong>Preciznost</strong> – obraćamo pažnju na detalje koji prave razliku.</li>
-                    <li><strong>Pouzdanost</strong> – tu smo i nakon lansiranja sajta.</li>
-                </ul>
+    <section class="hero-text2">
+        <h1>USLUGE</h1>
+      </section>
+      <section class="subtext">
+        <p>Šta možemo da uradimo za vas?</p>
+      </section>
+      <section class="mt-[75px] grid grid-cols-2 gap-[55px] justify-items-center">
+        <div class="service-card circle">
+          <h3>Izrada web sajtova</h3>
+          <img src="assets/img/image4.png">
+          <p>Personalizovani web sajtovi po vašoj meri</p>
+        </div>
+        <div class="service-card square">
+          <h3>Redizajn i optimizacija</h3>
+          <img src="assets/img/image5.png">
+          <p>Oživljavamo postojeće sajtove i činimo ih bržim</p>
+        </div>
+        <div class="service-card square">
+          <h3>Brending i dizajn</h3>
+          <img src="assets/img/image6.png">
+          <p>Logo, boje, tipografija i vizuelni identitet</p>
+        </div>
+        <div class="service-card circle">
+          <h3>SEO i podrška</h3>
+          <img src="assets/img/image7.png">
+          <p>Da vas Google i klijenti uvek lako pronađu</p>
+        </div>
+      </section>
+      <section class="hero-text2">
+        <h1>PLANOVI</h1>
+      </section>
+      <section class="plans">
+        <div class="plan-card">
+          <div class="plan-header">
+            <h3>LIGHT</h3>
+            <p>Jednostavan sajt</p>
+          </div>
+          <div class="plan-price">
+            <div class="plan-price-circle">
+              <span class="od">OD</span>
+              <span class="cena">30€</span>
             </div>
-        </article>
-
-    </div>
-
-</section>
+          </div>
+          <ul class="plan-features">
+            <li>1-3 stranice</li>
+            <li>1-3 stranice</li>
+            <li>1-3 stranice</li>
+            <li>1-3 stranice</li>
+            <li>1-3 stranice</li>
+            <li>1-3 stranice</li>
+            <li>1-3 stranice</li>
+            <li>1-3 stranice</li>
+            <li>1-3 stranice</li>
+          </ul>
+          <button class="plan-btn">POPUNITE UPITNIK</button>
+        </div>
+        <div class="plan-card">
+          <div class="plan-header">
+            <h3>STANDARD</h3>
+            <p>Standardni sajtovi</p>
+          </div>
+          <div class="plan-price">
+            <div class="plan-price-circle">
+              <span class="od">OD</span>
+              <span class="cena">70€</span>
+            </div>
+          </div>
+          <ul class="plan-features">
+            <li>1-3 stranice</li>
+            <li>1-3 stranice</li>
+            <li>1-3 stranice</li>
+            <li>1-3 stranice</li>
+            <li>1-3 stranice</li>
+            <li>1-3 stranice</li>
+            <li>1-3 stranice</li>
+            <li>1-3 stranice</li>
+            <li>1-3 stranice</li>
+          </ul>
+          <button class="plan-btn">POPUNITE UPITNIK</button>
+        </div>
+        <div class="plan-card">
+          <div class="plan-header">
+            <h3>PREMIUM</h3>
+            <p>Napredna rešenja</p>
+          </div>
+          <div class="plan-price">
+            <div class="plan-price-circle">
+              <span class="od">OD</span>
+              <span class="cena">120€</span>
+            </div>
+          </div>
+          <ul class="plan-features">
+            <li>1-3 stranice</li>
+            <li>1-3 stranice</li>
+            <li>1-3 stranice</li>
+            <li>1-3 stranice</li>
+            <li>1-3 stranice</li>
+            <li>1-3 stranice</li>
+            <li>1-3 stranice</li>
+            <li>1-3 stranice</li>
+            <li>1-3 stranice</li>
+          </ul>
+          <button class="plan-btn">POPUNITE UPITNIK</button>
+        </div>
+      </section>
 
 
   </div>
