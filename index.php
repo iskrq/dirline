@@ -1,5 +1,5 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="sr">
 <head>
   <title>Dirline</title>
   <meta charset="UTF-8">
@@ -39,7 +39,7 @@
         <p>Zakažite besplatne konsultacije!</p>
       </div>
 
-      <div class="forma">
+      <div class="contact-form">
         <label class="label">Ime</label>
         <input class="input" type="text" placeholder="Value">
         <label class="label">Email adresa</label>
@@ -48,7 +48,7 @@
         <input class="input" type="tel" placeholder="Value">
         <label class="label">Poruka</label>
         <textarea placeholder="Zanima me..."></textarea>
-        <button class="request-button">Želim da me kontaktirate!</button>
+        <button type="submit" class="request-button">Želim da me kontaktirate!</button>
       </div>
 
       <div class="right-image">
@@ -58,8 +58,8 @@
     </section>
 
     <!-- OVO IDE ISPOD SEKCIJE -->
-    <section class="donji-tekst">
-      <div class="levi-tekst">
+    <section class="bottom-text">
+      <div class="left-text">
         <p>
           Naša misija je da vašu ideju pretvorimo u digitalnu stvarnost – od
           <span class="purple">kreativnog dizajna</span> do
@@ -67,7 +67,7 @@
         </p>
       </div>
 
-      <div class="desni-tekst">
+      <div class="right-text">
         <h3>KRATKI BENEFITI:</h3>
         <ul>
           <li><span class="blue">Brza</span> i <span class="purple">sigurna</span> realizacija</li>
@@ -81,9 +81,9 @@
     <section class="about mt-20">
     
       <header class="mb-16">
-          <h1 class="text-center text-4xl font-bold">
+          <h2 class="text-center text-4xl font-bold">
               O NAMA
-          </h1>
+          </h2>
       </header>
 
       <div class="about-cards">
@@ -91,9 +91,9 @@
           <!-- Kartica 1 -->
           <article class="about-card">
               <div class="bg-[#091B37] p-8 text-white md:w-[70%]">
-                  <h2 class="mb-4 text-3xl font-bold">
+                  <h3 class="mb-4 text-3xl font-bold">
                       KO STOJI IZA DIRLINE-A?
-                  </h2>
+                  </h3>
 
                   <p class="text-lg md:text-xl">
                       Mi smo <span class="blue">David</span> i
@@ -117,9 +117,9 @@
 
           <!-- Kartica 2 -->
         <article class="about-card about-card-center bg-white p-8">
-            <h2 class="mb-6 text-center text-3xl font-bold">
+            <h3 class="mb-6 text-center text-3xl font-bold">
                 ZAŠTO BAŠ DIRLINE?
-            </h2>
+            </h3>
 
             <p class="text-lg md:text-xl">
                 Naziv Dirline dolazi od našeg ličnog potpisa –
@@ -145,9 +145,9 @@
               </figure>
 
               <div class="bg-[#091B37] p-8 text-right text-white md:w-[70%]">
-                  <h2 class="mb-4 text-3xl font-bold">
+                  <h3 class="mb-4 text-3xl font-bold">
                       NAŠE VREDNOSTI
-                  </h2>
+                  </h3>
 
                   <p class="mb-4 text-lg md:text-xl">
                       Naš rad zasnivamo na tri stuba:
@@ -166,7 +166,7 @@
     </section>
 
     <section class="hero-text2">
-        <h1>USLUGE</h1>
+        <h2>USLUGE</h2>
       </section>
       <section class="subtext">
         <p>Šta možemo da uradimo za vas?</p>
@@ -194,7 +194,7 @@
         </div>
       </section>
       <section class="hero-text2">
-        <h1>PLANOVI</h1>
+        <h2>PLANOVI</h2>
       </section>
       <section class="plans">
         <div class="plan-card">

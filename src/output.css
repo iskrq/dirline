@@ -606,7 +606,7 @@ body {
   margin-top: 40px;
   margin-bottom: 40px;
 }
-.hero-text h1 {
+.hero-text h1, h2 {
   font-size: 36px;
   line-height: 1.2;
   font-weight: 800;
@@ -642,7 +642,7 @@ body {
 .bubble-2 {
   top: 262px;
 }
-.forma {
+.contact-form {
   position: absolute;
   top: -5px;
   left: 240px;
@@ -696,7 +696,7 @@ textarea {
   height: 100%;
   object-fit: cover;
 }
-.donji-tekst {
+.bottom-text {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -704,20 +704,20 @@ textarea {
   margin-top: 40px;
   font-size: 20px;
 }
-.levi-tekst {
+.left-text {
   width: 50%;
 }
-.desni-tekst {
+.right-text {
   width: 40%;
 }
-.desni-tekst h3 {
+.right-text h3 {
   font-weight: 700;
   font-size: 30px;
 }
-.desni-tekst ul {
+.right-text ul {
   list-style-position: inside;
 }
-.desni-tekst li {
+.right-text li {
   list-style-type: disc;
 }
 .about-cards {
@@ -741,7 +741,7 @@ textarea {
     flex-direction: column;
   }
 }
-.hero-text2 h1 {
+.hero-text2 h2 {
   font-size: 36px;
   font-weight: bold;
   text-align: center;
