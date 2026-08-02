@@ -1,5 +1,20 @@
 @import "tailwindcss";
 
+/* ==========================================================
+   ROOT / VARIABLES
+   ========================================================== */
+
+/* :root {
+    --primary: #5B42E8;
+    --secondary: #9A42E8;
+    --background: #e6e6e6;
+    --text: #252525;
+} */
+
+/* ==========================================================
+   BASE
+   ========================================================== */
+
 body {
   font-family: 'Montserrat', sans-serif;
   margin: auto;
@@ -15,17 +30,80 @@ body {
 .blue { color: #5B42E8; }
 .purple { color: #9A42E8; }
 
-/* ---------- Naslov ---------- */
-.hero-text {
+
+/* ==========================================================
+   TYPOGRAPHY
+   ========================================================== */
+
+.hero-title {
   font-size: 22px;
   margin-top: 40px;
   margin-bottom: 40px;
 }
-.hero-text h1, h2 {
+
+.hero-title h1, .hero-title h2 {
   font-size: 36px;
   line-height: 1.2;
   font-weight: 800;
 }
+
+.subtext
+{
+  color: #252525;
+  text-align: center;
+  font-size: 20px;
+}
+
+.label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 6px;
+  margin-top: 12px;
+}
+
+/* ==========================================================
+   HEADER
+   ========================================================== */
+
+.site-header{
+    background:#fff;
+    box-shadow:0 2px 10px rgba(0,0,0,.05);
+}
+
+.header-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:90px;
+}
+
+.logo img{
+    height:55px;
+    width:auto;
+    object-fit:contain;
+}
+
+.nav{
+    display:flex;
+    gap:35px;
+}
+
+.nav a{
+    text-decoration:none;
+    color:#111;
+    font-weight:600;
+    transition:.3s;
+}
+
+.nav a:hover{
+    color:#5B42E8;
+}
+
+
+/* ==========================================================
+   HERO
+   ========================================================== */
+
 .swirl-wrap {
   position: relative;
   width: 100%;
@@ -46,6 +124,7 @@ body {
   left: 25px;
   width: 150px;
 }
+
 .bubble p {
   margin: 0;
   font-weight: 800;
@@ -53,6 +132,7 @@ body {
   font-size: 20px;
   color: #696969;
 }
+
 .bubble-1 { top: 80px; }
 .bubble-2 { top: 262px; }
 
@@ -64,12 +144,6 @@ body {
   background: white;
   padding: 15px 20px;
   border-radius: 5px;
-}
-.label {
-  display: block;
-  font-size: 16px;
-  margin-bottom: 6px;
-  margin-top: 12px;
 }
 
 .input,
@@ -97,6 +171,7 @@ textarea {
   color: white;
   font-size: 14px;
 }
+
 .request-button:hover {
   background: #2446e8;
 }
@@ -117,6 +192,10 @@ textarea {
   height: 100%;
   object-fit: cover;
 }
+
+/* ==========================================================
+   INTRO SECTION
+   ========================================================== */
 
 .bottom-text {
   display: flex;
@@ -148,6 +227,10 @@ textarea {
   list-style-type: disc;
 }
 
+/* ==========================================================
+   ABOUT
+   ========================================================== */
+
 .about-cards {
     display: flex;
     flex-direction: column;
@@ -169,26 +252,10 @@ textarea {
     display: block;
 }
 
-@media (max-width: 768px) {
 
-    .about-card {
-        flex-direction: column;
-    }
-
-}
-
-.hero-text2 h2 {
-  font-size: 36px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.subtext
-{
-  color: #252525;
-  text-align: center;
-  font-size: 20px;
-}
+/* ==========================================================
+   SERVICES
+   ========================================================== */
 
 .service-card{
     width:350px;
@@ -242,6 +309,11 @@ textarea {
     font-size:18px;
     color:#252525;
 }
+
+/* ==========================================================
+   PLANS
+   ========================================================== */
+
 .plans {
   display: flex;
   justify-content: center;
@@ -330,44 +402,9 @@ textarea {
   background: #000;
 }
 
-
-/* ================= HEADER ================= */
-
-.site-header{
-    background:#fff;
-    box-shadow:0 2px 10px rgba(0,0,0,.05);
-}
-
-.header-content{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    height:90px;
-}
-
-.logo img{
-    height:55px;
-    width:auto;
-    object-fit:contain;
-}
-
-.nav{
-    display:flex;
-    gap:35px;
-}
-
-.nav a{
-    text-decoration:none;
-    color:#111;
-    font-weight:600;
-    transition:.3s;
-}
-
-.nav a:hover{
-    color:#5B42E8;
-}
-
-/* ================= FOOTER ================= */
+/* ==========================================================
+   FOOTER
+   ========================================================== */
 
 .site-footer{
     margin-top:120px;
@@ -590,6 +627,19 @@ textarea {
 
     background:#9A42E8;
     color:white;
+
+}
+
+/* ==========================================================
+   RESPONSIVE
+   ========================================================== */
+
+
+@media (max-width: 768px) {
+
+    .about-card {
+        flex-direction: column;
+    }
 
 }
 

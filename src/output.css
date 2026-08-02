@@ -218,11 +218,11 @@
   .mt-1 {
     margin-top: var(--spacing);
   }
+  .mt-2 {
+    margin-top: calc(var(--spacing) * 2);
+  }
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
-  }
-  .mt-\[75px\] {
-    margin-top: 75px;
   }
   .mb-4 {
     margin-bottom: calc(var(--spacing) * 4);
@@ -601,15 +601,54 @@ body {
 .purple {
   color: #9A42E8;
 }
-.hero-text {
+.hero-title {
   font-size: 22px;
   margin-top: 40px;
   margin-bottom: 40px;
 }
-.hero-text h1, h2 {
+.hero-title h1, .hero-title h2 {
   font-size: 36px;
   line-height: 1.2;
   font-weight: 800;
+}
+.subtext {
+  color: #252525;
+  text-align: center;
+  font-size: 20px;
+}
+.label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 6px;
+  margin-top: 12px;
+}
+.site-header {
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0,0,0,.05);
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+.logo img {
+  height: 55px;
+  width: auto;
+  object-fit: contain;
+}
+.nav {
+  display: flex;
+  gap: 35px;
+}
+.nav a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 600;
+  transition: .3s;
+}
+.nav a:hover {
+  color: #5B42E8;
 }
 .swirl-wrap {
   position: relative;
@@ -650,12 +689,6 @@ body {
   background: white;
   padding: 15px 20px;
   border-radius: 5px;
-}
-.label {
-  display: block;
-  font-size: 16px;
-  margin-bottom: 6px;
-  margin-top: 12px;
 }
 .input, textarea {
   width: 100%;
@@ -735,21 +768,6 @@ textarea {
 }
 .about-card-center {
   display: block;
-}
-@media (max-width: 768px) {
-  .about-card {
-    flex-direction: column;
-  }
-}
-.hero-text2 h2 {
-  font-size: 36px;
-  font-weight: bold;
-  text-align: center;
-}
-.subtext {
-  color: #252525;
-  text-align: center;
-  font-size: 20px;
 }
 .service-card {
   width: 350px;
@@ -881,34 +899,6 @@ textarea {
 }
 .plan-btn:hover {
   background: #000;
-}
-.site-header {
-  background: #fff;
-  box-shadow: 0 2px 10px rgba(0,0,0,.05);
-}
-.header-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 90px;
-}
-.logo img {
-  height: 55px;
-  width: auto;
-  object-fit: contain;
-}
-.nav {
-  display: flex;
-  gap: 35px;
-}
-.nav a {
-  text-decoration: none;
-  color: #111;
-  font-weight: 600;
-  transition: .3s;
-}
-.nav a:hover {
-  color: #5B42E8;
 }
 .site-footer {
   margin-top: 120px;
@@ -1067,6 +1057,11 @@ textarea {
 .footer-login:hover {
   background: #9A42E8;
   color: white;
+}
+@media (max-width: 768px) {
+  .about-card {
+    flex-direction: column;
+  }
 }
 @media (max-width:900px) {
   .header-content {
