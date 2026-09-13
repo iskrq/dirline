@@ -436,6 +436,12 @@ textarea {
     object-fit:contain;
 }
 
+.footer-brand svg{
+    width:140px;
+    height:auto;
+    object-fit:contain;
+}
+
 .footer-brand h2{
     margin-top:18px;
     font-size:42px;
