@@ -169,27 +169,27 @@
             <p class="mt-2 text-xl">Šta možemo da uradimo za vas?</p>
         </header>
 
-        <div class="grid grid-cols-2 justify-items-center gap-[55px]">
+        <div class="grid grid-cols-1 sm:grid-cols-2 justify-items-center">
 
-            <article class="service-card circle">
+            <article class="service-card circle sm:order-1 order-1">
                 <h3>Izrada web sajtova</h3>
                 <img src="assets/img/image4.png" alt="Ikonica za izradu web sajtova">
                 <p>Personalizovani web sajtovi po vašoj meri.</p>
             </article>
 
-            <article class="service-card square">
+            <article class="service-card square sm:order-2 order-2">
                 <h3>Redizajn i optimizacija</h3>
                 <img src="assets/img/image5.png" alt="Ikonica za redizajn i optimizaciju">
                 <p>Oživljavamo postojeće sajtove i činimo ih bržim.</p>
             </article>
 
-            <article class="service-card square">
+            <article class="service-card square sm:order-3 order-4">
                 <h3>Brending i dizajn</h3>
                 <img src="assets/img/image6.png" alt="Ikonica za brending i dizajn">
                 <p>Logo, boje, tipografija i kompletan vizuelni identitet.</p>
             </article>
 
-            <article class="service-card circle">
+            <article class="service-card circle sm:order-4 order-3">
                 <h3>SEO i podrška</h3>
                 <img src="assets/img/image7.png" alt="Ikonica za SEO i podršku">
 
