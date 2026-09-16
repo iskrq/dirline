@@ -332,3 +332,85 @@ ul
 .plan-btn:hover {
   background: #000;
 }
+@media (max-width: 768px)
+{
+  .donji-tekst 
+  {
+    flex-direction: column;
+  }
+  .levi-tekst,
+  .desni-tekst
+  {
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+  }
+}
+@media (max-width: 992px)
+{
+    .about1,
+    .about2,
+    .about3
+    {
+        height: auto;
+        min-height: 300px;
+    }
+
+    .about1-tekst,
+    .about3-tekst
+    {
+        width: 65%;
+    }
+
+    .about1-slika,
+    .about3-slika
+    {
+        width: 35%;
+    }
+
+    .about1-tekst p,
+    .about3-tekst p,
+    .about2 p
+    {
+        font-size: 18px;
+    }
+}
+@media (max-width: 992px)
+{
+    .about1,
+    .about3
+    {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .about1-slika,
+    .about3-slika
+    {
+        order: 1;
+        width: 100%;
+        height: 250px;
+    }
+
+    .about1-tekst,
+    .about3-tekst
+    {
+        order: 2;
+        width: 100%;
+        padding: 30px;
+    }
+}
+@media (max-width: 992px)
+{
+    .mt-\[75px\].grid {
+        grid-template-columns: 1fr;
+    }
+
+    .service-card:nth-child(3) {
+        order: 4;
+    }
+
+    .service-card:nth-child(4) {
+        order: 3;
+    }
+}
